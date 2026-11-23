@@ -140,7 +140,7 @@ input[type="range"] { width: 100%; accent-color: #38bdf8; }
   .panel { display: none; }
   .workspace[data-view="camera"] .camera-panel { display:block; }
   .workspace[data-view="avatar"] .avatar-panel { display:block; }
-  .workspace[data-view="split"] { grid-template-rows: 1fr 1fr; grid-template-columns: 1fr; }
+  .workspace[data-view="split"] { grid-template-rows: 1fr; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
   .workspace[data-view="split"] .panel { display:block; }
   .top-actions .switch-label { display:none; }
   .debug-panel { top: 120px; right: 12px; width: calc(100% - 24px); max-height: calc(100dvh - 136px); }
